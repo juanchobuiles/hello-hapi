@@ -13,7 +13,7 @@ const validate = {
 };
 const PORT = process.env.PORT || 8080
 const server = Hapi.Server({
-    host: 'localhost',
+    // host: 'localhost',
     port: PORT,
     routes: {
         /*
